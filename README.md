@@ -4,7 +4,7 @@
 
 Welcome to APSSDC Web Development Using Django Training this repository consists of all the files, resources, and recorded session links which are discussed during the entire training.
 
-### [Registerd Students Details](https://docs.google.com/spreadsheets/d/1NNrObQi0Z0uqOVvjoezuYMtInLn4WtdxYgKVN0hbckc/edit?usp=sharing)
+### [Registered Students Details](https://docs.google.com/spreadsheets/d/1NNrObQi0Z0uqOVvjoezuYMtInLn4WtdxYgKVN0hbckc/edit?usp=sharing)
 
 Recorded sessions links:
 
