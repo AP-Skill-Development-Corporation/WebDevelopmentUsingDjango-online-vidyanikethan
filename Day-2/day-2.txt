@@ -1,0 +1,98 @@
+
+
+Day-2:
+------
+GoodMorning To All:
+--------------------
+DayObjectives:
+==============
+
+- s/w requirement for Django
+       - python 3.6.8
+       - sublime text
+       - pip install django
+
+- Django Introduction:
+====================== 
+web frameworks in python:
+-----------------------
+      - django
+      -flask
+      -web2py
+      -bottle
+      -cherrypy
+
+webframe work:
+ it is designed to support the development of web applications
+
+	-web services
+	-web resouces
+	- web api
+==================
+MVC:(model view controller)
+
+C:here we can build main logic for controlling both views and model
+V:here we can build user representation(html files)
+M:store DB connections
+
+
+MVT:(model view template)
+
+M:DB connections
+V:it will work like a controller(templates,models)
+T:here we can store .html files
+
+project creation:
+================
+
+1.you have to choose one location for projection creation 
+in that you have to create one folder.
+
+2.in that folder location you have to open cmd
+
+3. in django one command is there for project creation
+
+	"django-admin startproject yourprojectname"
+
+		manage.py:execution is starts from here
+	        __init__:
+		asgi:asynchronous server gateway interface
+		wsgi:web service gateway interface(hosting purpose)
+		settings.py:we will make all project settings
+		urls.py:we will map our urls
+
+App Creation:
+-------------
+        "python manage.py startapp appname"
+
+	migrations:it will handle all db connections
+	__init__:
+	admin.py:we will give permission to admin for accessing models
+	apps.py:app information
+	models.py:we will write db code
+	test.py:for testing purpose
+
+runserver:
+==========
+
+	"python manage.py runserver"
+
+url creation:
+	from myApp import views
+
+	path(urlname,function name,name of the url), 
+	path(hi/,views.hi,name='hi')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
