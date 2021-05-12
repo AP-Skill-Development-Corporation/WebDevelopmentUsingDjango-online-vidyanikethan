@@ -10,4 +10,4 @@ Recorded sessions links:
 
 [Day 1](https://transcripts.gotomeeting.com/#/s/7fbdff1f3730bbe8ea25f9449b889e68afc90b102b879a0ce8e482d680f13df4)
 [Day 2](https://transcripts.gotomeeting.com/#/s/1dc5ceef3852355a7edf9a54ea4f7e8c3f1d87351b74827f380a08ce39844aba)
-
+[Day 3](https://transcripts.gotomeeting.com/#/s/eb4de80b91690769e2f02f469df7702988e6eaaadd34c83c86cfd29850478cf1)
