@@ -1,0 +1,56 @@
+Day-3
+=====
+GoodMorning to all:
+===================
+
+Day Objectives:
+==============
+ - interface b/w urls and views
+
+	path(urlname,function name,name of the url),
+
+	heading tags:
+	 <h1></h1> to <h6></h6>
+	style	
+
+ - Dynamic url mapping
+
+
+Task:localhost:8000/urlname/name/roll no
+
+DTL(Django template Language):
+===============================
+syntax:
+conditional statemats:
+
+	{% if condition %}
+	   ----------
+	   body statements
+
+	{% endif %}
+	{% elif condition%}
+	---------------
+
+
+	{%end elif%}
+loops:     data=[3,4,5,6,2]
+               for i in data:
+			print(i)
+
+	{% for i in data %}
+
+
+	{% end for%}
+
+Tempaltes:
+----------
+     url->views->templates(.html files)
+
+	return render(paramaeter1,parameter2,parameter3)
+
+	return render(request,'htmlfile location',dictionary)
+
+Template Creation:
+==================
+- right cilck of app
+- templates/myApp
