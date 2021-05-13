@@ -1,0 +1,69 @@
+
+
+Day-4
+-----
+GoodMorning To All:
+------------------
+Day Objectives:
+==============
+- Django Templates
+	templates:.html files
+	render(req,.html file location, dic)
+	dictionary:if you want pass any data 
+	from view to html file
+
+DTL(Django template language)
+
+{% if %}
+    {{value}}
+{% endif%}
+
+{{value}}
+- static files handling
+
+Html tags:
+
+<center>
+<table>
+<span>:styling purpose
+<div>
+<li>
+<ol>
+<img>
+<link>
+<style>
+<script>
+<p>
+<input>
+
+types of css:
+=============
+inline(same line)
+internal<style>
+external<.css>
+
+
+
+localhost:8000/urlname/6
+
+
+6*1=6
+
+l=[9,7,6,9,6,1]
+l.append(1)
+
+rows columns
+
+  firstname lastname age
+  siri      tamada   22
+
+<marquee>-scroll
+<table><tr><th><td>
+
+padding:
+margin:
+
+- static files handling: we can sore .css files,js fles ,images
+
+
+

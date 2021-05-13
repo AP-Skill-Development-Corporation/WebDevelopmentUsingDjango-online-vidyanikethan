@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup page</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/basic.css'%}">
+	<script type="text/javascript" src="{% static 'js/basic.js'%}"></script>
+</head>
+<body>
+<form>
+<h3>Registration Form</h3>
+<input type="text" name="name" placeholder="Enter your name" required><br><br>
+<input type="text" name="email" placeholder="Enter your email" required><br><br>
+<input type="password" name="psw" placeholder="Enter your password" required><br><br>
+<input type="password" name="cpsw" placeholder="Enter your Confirm password" required=""><br><br>
+<button>Signup</button>
+	
+</form>
+<img src="{% static 'images/logo.png'%}">
+</body>
+</html>
