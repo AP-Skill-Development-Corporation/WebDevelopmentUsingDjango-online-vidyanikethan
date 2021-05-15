@@ -1,0 +1,37 @@
+good morning everyone!!
+
+------
+topics :
+
+Data rendering from templates to views
+Model creation
+	sync with data base - migrations
+	migrations: 
+				- makegrations (going to create new migrations)
+				python manage.py makemigrations
+				- migrate (applyng all migrations to dataBase)
+admin app
+super user logins admin page
+	- python manage.py createsuperuser
+
+ORM(object Rotational mapper) Queries:
+
+to create or saave new details
+------------------------------ 
+obj = Register(Student_name = 'sample', Email= 'samle@email',..)
+obj.save()
+
+create() method to store a record 
+Model_Name.objects.create(Student_name = 'sample', Email= 'samle@email',..)
+
+
+Reading objects:
+-----------------
+	retrive all obejects:
+		modelname.objects.all()
+	retrive specfic data by using some conditions
+		modelname.objects.filter(Branch='eee')
+	retrive a single objects by get()
+		modelname.objects.get(id = 1)
+Update the data 
+delete 

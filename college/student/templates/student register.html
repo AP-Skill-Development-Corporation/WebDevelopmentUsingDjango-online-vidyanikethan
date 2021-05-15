@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Register</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+<form method="post">
+    {%csrf_token%}
+    name: <input type="text" name="Name"><br>
+    email: <input type="email" name="Email"><br>
+    branch: <input type="text" name="Branch"><br>
+    <input type="submit" name="submit" value="Register">
+</form>
+</body>
+</html>
