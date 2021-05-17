@@ -20,4 +20,6 @@ from student import views as student_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('student/register',student_view.student_register, name='student_register'),
+    path('student/data',student_view.student_data,name='data'),
+    path('student/update/<int:num>',student_view.student_update, name='update'),
 ]

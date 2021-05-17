@@ -1,0 +1,43 @@
+Retriving objects with Exclude():
+--------------------------------
+model_name.objects.exclude(Branch='eee')
+
+Retriving objects with chaining filters:
+------------------------------
+model_name.objects.exclude(Branch='eee').filter(Branch=it)
+
+Retriving objects Using order_by()
+------------------------------
+obj.objects.order_by('Student_name')
+
+Update
+------
+step 1: gitting the intance:
+	k = obj.objects.get(Student_name='keerty')
+step 2: modifying
+	k.Branch = 'kkk'
+step 3: save()
+	k.save()
+Update multiple objects at a time:
+----------------------------------
+Register.objects.filter(Branch='eee').update(Email='eee@gmail.com')
+
+Delete
+-----
+ o = Register.objects.get(id=3)
+ o.delete()
+
+
+Limiting Queries
+----------------
+s = Register.objects.filter(Branch='cse')
+s[::-1]
+
+field Lookups:
+--------------
+Exact: case sensitive
+IExact: not a case sensitive
+Contains: not a case sensitive - verifying sub strings
+
+
+

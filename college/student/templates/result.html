@@ -10,12 +10,22 @@
         <th>Name</th>
         <th>Email</th>
         <th>Branch</th>
+        <th>Age</th>
+        <th>Dob</th>
+        <th>Gender</th>
     </tr>
+
+    {% for i in context %}
     <tr>
-        <td>{{name}}</td>
-        <td>{{email}}</td>
-        <td>{{branch}}</td>
+        {# {{context}} #}
+        <td>{{i.Student_name}}</td>
+        <td>{{i.Email}}</td>
+        <td>{{i.Branch}}</td>
+        <td>{{i.age}}</td>
+        <td>{{i.dob}}</td>
+        <td>{{i.gender}}</td>
     </tr>
+    {% endfor %}
 </table>
 </body>
 </html>
