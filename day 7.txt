@@ -1,0 +1,12 @@
+day 7:
+-----
+Delete operation
+form Validations
+	there are two types of forms 
+			- model form
+			- normal form
+
+faculty/register
+faculty/update
+faculty/delete
+faculty/data

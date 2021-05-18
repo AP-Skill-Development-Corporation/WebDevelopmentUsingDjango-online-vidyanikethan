@@ -7,36 +7,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 </head>
 <body>
-{% if messages %}
-			{% for msg in messages %}
-			<div class="alert alert-{{ msg.tags }}">{{ msg }}</div>
-			{% endfor %}
-		{% endif %}
-
-<div class="justify-content-center">
+<div>
     <table class="table-striped active" border="2">
     <tr>
         <th>Name</th>
         <th>Email</th>
-        <th>Branch</th>
         <th>Age</th>
-        <th>Dob</th>
-        <th>Gender</th>
+        <th>Mobile number</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
 
-    {% for i in context %}
+    {% for i in data %}
     <tr>
         {# {{context}} #}
-        <td>{{i.Student_name}}</td>
-        <td>{{i.Email}}</td>
-        <td>{{i.Branch}}</td>
-        <td>{{i.age}}</td>
-        <td>{{i.dob}}</td>
-        <td>{{i.gender}}</td>
-        <td><a class="btn btn-primary" href="{% url 'update' i.id %}">Edit</a></td>
-        <td><a class="btn btn-primary" href="{% url 'delete' i.id %}">Delete</a></td>
+        <td>{{i.Faculty_name}}</td>
+        <td>{{i.Faculty_mail}}</td>
+        <td>{{i.Faculty_age}}</td>
+        <td>{{i.Faculty_phone}}</td>
+        <
+        <td><a class="btn btn-primary" href="#">Edit</a></td>
+        <td><a class="btn btn-primary" href="#">Delete</a></td>
     </tr>
     {% endfor %}
 </table>
