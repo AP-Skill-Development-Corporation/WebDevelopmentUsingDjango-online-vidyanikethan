@@ -21,3 +21,5 @@ Recorded sessions links:
 [Day 6](https://transcripts.gotomeeting.com/#/s/49e3c787c6328a30839435cde87cd0a196406b8b700081af17d1ddbae74c1719)
 
 [Day 7](https://transcripts.gotomeeting.com/#/s/105e0d38df29edc1021af42ccf73e15c56f2835e5d5b465f4028e15e2ff53deb)
+
+[20 May 2021](https://transcripts.gotomeeting.com/#/s/d392f78422b554277334f2c31f2e7ce4ce90f71e4b16535a5d264aef8bd84d3e)
