@@ -1,0 +1,34 @@
+Day Objectives : 
+==================
+
+=> Connecting Django project to MYSQL Database
+
+xampp: https://www.apachefriends.org/download.html
+
+mysqlclient : pip install mysqlclient
+
+Settings.py:
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'vidyanikethan',
+        'HOST' : 'localhost',
+        'USER' : 'root',
+        'PASSWORD' : '',
+        'PORT' : '3306'
+    }
+}
+
+-> It is a connector between django project and mysql server
+
+= > FileUploading
+
+pillow : pip install pillow
+
+settings.py:
+
+MEDIA_ROOT = os.path.join(BASE_DIR,'student/static/images')
+MEDIA_URL = '/images/'
+
+
