@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block title %}
+Library Form
+{% endblock %}
+
+{% block body %}
+{% include "navbar.html" %}
+<div class='container'>
+	<h1 class='text-primary'>Library Form</h1>
+<form method='POST' enctype="multipart/form-data">
+	{% csrf_token %}
+	{{form.as_p}}
+	<button class='btn btn-success'>Submit</button>
+</form>
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "index.html" %}
+
+
+{% block title%}
+Student Registration
+{% endblock %}
+
+{% block body %}
+
+{% include "navbar.html" %}
+
+<div class="container">
+    <div class="card">
+        <div class="card-title"><h1>Student Registration</h1></div>
+        <div class="card-body">
+            <form method="post">
+                {%csrf_token%}
+                <input type="text" name="Name" placeholder="Name"><br>
+                <input type="email" name="Email" placeholder="Email"><br>
+                <input type="text" name="Branch" placeholder="Branch name"><br>
+                <input type="text" name="Age" placeholder="Enter your age"><br>
+                <input type="date" name="Dob"><br>
+                Male: <input type="radio" name="gender" value="Male"><br>
+                Female: <input type="radio" name="gender" value="Female"><br>
+            <input type="submit" name="submit" value="Register">
+        </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

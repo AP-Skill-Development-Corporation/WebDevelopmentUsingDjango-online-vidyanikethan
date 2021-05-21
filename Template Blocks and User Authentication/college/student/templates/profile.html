@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+
+{% block title %}
+{{user}} Profile
+
+{% endblock %}
+
+
+{% block body %}
+{% include "navbar.html" %}
+<div class="container">
+
+<h3>Profile</h3>
+<label>First Name :</label>{{user.first_name}}<br>
+<label>Last Name :</label>{{user.last_name}}<br>
+<label>Email :</label>{{user.email}}<br>
+<label>Username :</label>{{user.username}}<br>
+
+</div>
+{% endblock %}
