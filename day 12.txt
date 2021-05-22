@@ -1,0 +1,9 @@
+Git  -- it will provied you a version control
+GitHub -- the place where we can store our project
+
+Gitbash -- it shell
+GitGui -- graphical user interface
+
+local sytem and it will act like interface  between locat system and github
+
+repository == directory, folder
