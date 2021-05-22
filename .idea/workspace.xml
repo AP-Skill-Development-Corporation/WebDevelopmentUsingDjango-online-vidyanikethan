@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="394a13a8-898f-44f4-b4d1-29844397cb7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/divya.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/college/faculty/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/college/faculty/templates/disply.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/college/faculty/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/college/college/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/college/college/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/college/college/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/college/college/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/college/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/college/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/college/student/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/college/student/templates/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/college/student/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/college/student/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +32,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sample project" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,10 +49,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1621308448829">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1621609541129">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1621308448829" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1621609541129" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1621609419259">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1621609419259" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1621310597623">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
