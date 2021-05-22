@@ -1,0 +1,28 @@
+{% extends "index.html" %}
+
+
+{% block title %}
+Faculty Registration
+{% endblock %}
+
+{% block body %}
+
+{% include "navbar.html" %}
+
+    <div class="Container">
+        <div class="row justify-content-center">
+            <div class="card">
+                <div class="card-header bg-info">Faculty Registration</div>
+                <div class="card-body">
+                    <form method="post">
+                        {% csrf_token %}
+                        <table>{{ form.as_table }}</table>
+                        <div class="card-footer">
+                            <input class="btn btn-info" type="submit" value="Register">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

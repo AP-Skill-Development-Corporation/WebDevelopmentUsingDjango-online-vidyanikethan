@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>students data</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+<body>
+<div>
+    <table class="table-striped active" border="2">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>Mobile number</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+
+    {% for i in data %}
+    <tr>
+        {# {{context}} #}
+        <td>{{i.Faculty_name}}</td>
+        <td>{{i.Faculty_mail}}</td>
+        <td>{{i.Faculty_age}}</td>
+        <td>{{i.Faculty_phone}}</td>
+        <
+        <td><a class="btn btn-primary" href="#">Edit</a></td>
+        <td><a class="btn btn-primary" href="#">Delete</a></td>
+    </tr>
+    {% endfor %}
+</table>
+</div>
+</body>
+</html>

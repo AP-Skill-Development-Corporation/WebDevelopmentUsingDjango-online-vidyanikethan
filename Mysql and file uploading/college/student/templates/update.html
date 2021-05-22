@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Student Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="card-title"><h1>Update Student Details</h1></div>
+        <div class="card-body">
+            <form method="post">
+                {%csrf_token%}
+                <input type="text" name="Name" value="{{data.Student_name}}"><br>
+                <input type="email" name="Email" value="{{data.Email}}"><br>
+                <input type="text" name="Branch" value="{{data.Branch}}"><br>
+                <input type="text" name="Age" value="{{data.age}}"><br>
+                <input type="date" name="Dob" value="{{data.dob|date:'Y-m-d'}}"><br>
+                Male: <input type="radio" name="gender" value="Male"{% if data.gender == 'Male' %}checked{% endif %}><br>
+                Female: <input type="radio" name="gender" value="Female"{% if data.gender == 'Female' %}checked{% endif %}><br>
+            <input type="submit" name="submit" value="Update">
+        </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

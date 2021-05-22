@@ -1,0 +1,17 @@
+Day Objectives:
+===============
+
+=> Template Blocks  : Code Reusability
+-> include
+-> extends
+
+=> User Authentication
+->login
+->logout
+
+Hosting:
+=========
+Heroku
+Python Anywhere
+Profree
+InfinityFree

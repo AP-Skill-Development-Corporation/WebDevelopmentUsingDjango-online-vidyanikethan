@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+
+{% block title %}
+User Registration
+{% endblock%}
+
+{% block body %}
+{% include "navbar.html" %}
+
+<div class="container">
+	<h2>Student Registration</h2><br>
+	<form method="POST">
+		{% csrf_token %}
+		{{form.as_p}}
+		<button class='btn btn-success'>Register</button>
+	</form>
+</div>
+
+{% endblock %}
